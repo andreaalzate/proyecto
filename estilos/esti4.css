@@ -1,0 +1,21 @@
+body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%, #FF8E74  90%);
+}
+.borde1{
+  position: absolute;
+  top: 20px;
+  right: 450px;
+  color:white;
+  font-size: 40px;
+  font-family: 'Satisfy', cursive;
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes animacion{
+  0%{color: white;}
+  50%{color: #FFD6C5;}
+  100% {color:#FEF797;}
+  
+}
