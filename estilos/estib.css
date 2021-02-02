@@ -1,16 +1,18 @@
 .Boton1{
   position: absolute;
-  top: 470px;
-  left: 540px;
+  top: 490px;
+  left: 310px;
   background-color:white;
   height: 60px;
   width: 300px;
   color: #E29B6A;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Satisfy', cursive;
   padding-left: 15px;
   border: solid 5px;
+  text-decoration: none;
+  padding-top: 10px;
 }
 .Boton1:hover{
   position: absolute;
@@ -18,23 +20,25 @@
   display: block;
   height: 60px;
   width: 300px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 
 .Boton2{
   position: absolute;
-  top: 550px;
-  left: 540px;
+  top: 490px;
+  left: 700px;
   background-color:white;
   height: 60px;
   width: 300px;
   color: #E29B6A;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Satisfy', cursive;
   padding-left: 15px;
   border: solid 5px;
+  text-decoration: none;
+  padding-top: 10px;
 }
 .Boton2:hover{
   position: absolute;
@@ -42,22 +46,24 @@
   display: block;
   height: 60px;
   width: 300px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
 .Boton3{
   position: absolute;
-  top: 640px;
-  left: 540px;
+  top: 700px;
+  left: 310px;
   background-color:white;
   height: 60px;
   width: 300px;
   color:#E29B6A;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Satisfy', cursive;
   padding-left: 15px;
   border: solid 5px;
+  text-decoration: none;
+  padding-top: 10px;
 }
 .Boton3:hover{
   position: absolute;
@@ -65,23 +71,27 @@
   display: block;
   height: 60px;
   width: 300px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
+   text-decoration: none;
+  padding-top: 10px;
 }
 
 .Boton4{
   position: absolute;
-  top: 720px;
-  left: 540px;
+  top: 700px;
+  left: 700px;
   background-color:white;
   height: 60px;
   width: 300px;
   color: #E29B6A;
   border-radius: 50px;
-  font-size: 20px;
+  font-size: 25px;
   font-family: 'Satisfy', cursive;
   padding-left: 15px;
   border: solid 5px;
+  text-decoration: none;
+  padding-top: 10px;
 }
 .Boton4:hover{
   position: absolute;
@@ -89,6 +99,6 @@
   display: block;
   height: 60px;
   width: 300px;
-  font-size: 20px;
+  font-size: 25px;
   color: white;
 }
