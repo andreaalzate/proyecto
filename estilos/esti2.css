@@ -1,10 +1,34 @@
-body{ background:-webkit-linear-gradient(20deg, #FF8E74 10%,  #FFFAAF 90%);
+body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);
 }
 .borde1{
   position: absolute;
-  top: 20px;
-  right: 450px;
-  color:white;
+  top: 100px;
+  left: 300px;
+  width: 800px;
+  color:  #E29B6A;
+  font-size: 40px;
+  font-family: 'Satisfy', cursive;
+}
+.cuadrop{
+  position: absolute;
+  top: 145px;
+  left: 305px;
+  width: 790px;
+  height: 280px;
+  background-color: white;
+}
+.cuadrop2{
+  position: absolute;
+  top: 425px;
+  left: 303px;
+  width: 795px;
+  height: 380px;
+  background-color: #E29B6A;
+}
+.p{
+  position: absolute;
+  top: 10px;
+  left: 600px;
   font-size: 40px;
   font-family: 'Satisfy', cursive;
   animation-name: animacion;
@@ -12,10 +36,75 @@ body{ background:-webkit-linear-gradient(20deg, #FF8E74 10%,  #FFFAAF 90%);
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
+.Botonv{
+  position: absolute;
+  top: 95px;
+  left: 650px;
+  background-color:white;
+  height: 8px;
+  width: 80px;
+  color: #E29B6A; 
+  border-radius: 50px;
+  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+  padding-left: 15px;
+  border: solid 5px;
+  text-decoration: none;
+  padding-bottom: 15px;
+}
+.Botonv:hover{
+  position: absolute;
+  background-color:#E29B6A ;
+  display: block;
+  font-size: 20px;
+  color: white;
+}
+.entrega1{
+  position: absolute;
+  top: 490px;
+  left: 310px;
+  background-color:white;
+  height: 60px;
+  width: 300px;
+  color: #E29B6A; 
+  border-radius: 50px;
+  font-size: 25px;
+  font-family: 'Satisfy', cursive;
+  border: solid 5px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.entrega1:hover{
+  position: absolute;
+  background-color:#E29B6A ;
+  display: block;
+  height: 60px;
+  width: 300px;
+  font-size: 25px;
+  color: white;
+}
+.e1{
+   position: absolute;
+  top: 230px;
+  left: 630px;
+  font-size: 40px;
+  font-family: 'Satisfy', cursive;
+  color: #E29B6A;
+}
+.co{
+  position: absolute;
+  bottom: -230px;
+  left: 580px;
+  font-size: 20px;
+  font-family: 'Lekton', sans-serif;
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
 
 @keyframes animacion{
-  0%{color: white;}
-  50%{color: #F1D1FF;}
-  100% {color:#FFE7D1;}
-  
+  0%{color: #DEB684;}
+  50%{color: #E29B6A;}
+  100% {color: #DC8081;}
 }
