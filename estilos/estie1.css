@@ -1,0 +1,1100 @@
+body{ background:-webkit-linear-gradient(20deg, #FFFAAF 10%, white  90%);}
+.e1{
+  position: absolute;
+  top: 40px;
+  left: 550px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light Two', cursive;
+}	
+.rt{
+  position: absolute;
+  top: 80px;
+  left: 525px;
+  height: 10px;
+  width: 300px;
+  background: #FF9462;
+  border-radius: 20px;
+  opacity:40%;
+}
+.menu{
+  position: absolute;
+  background-color:#FFA07A; 
+  top: 20px;
+  height: 30px;
+  width: 1340px;
+  border-radius: 10px;
+}
+.librerias{
+  position: absolute;
+  top: 5px;
+  left: 20px;
+  width: 100px;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+}
+.num{
+  position: absolute;
+  top: 200px;
+  left: 380px;
+  height: 200px;
+  width: 100px;
+  font-size: 30px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.tl{
+  position: absolute;
+  top: 110px;
+  left: 200px;
+  font-size: 30px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.ft{
+  position: absolute;
+  top: 130px;
+  left: 180px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px/15px;
+  background: #FFA07A;
+  opacity: 40%;
+}
+.flechita{
+  position: absolute;
+  top: 100px;
+  left: 100px;
+  font-size: 30px;
+  color: #FFA07A;
+  animation-name: animacionn;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacionn{
+  0%{opacity: 30%}
+  100% {color: black;}
+  }
+.flechita1{
+  position: absolute;
+  top: 250px;
+  right: 400px;
+  font-size: 30px;
+  color: #FFA07A;
+  animation-name: animacionn;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacionn{
+  0%{opacity: 30%}
+  100% {color: black;}
+  }
+.il{
+  position: absolute;
+  top: 60px;
+  left: 50px;
+}
+.definición{
+  position: absolute;
+  top: 220px;
+  left: 200px;
+  height: 200px;
+  width: 100px;
+  font-size: 15px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.imgli{
+  position: absolute;
+  top: 300px;
+  left: 200px;
+  display: none;
+}
+.il:hover .imgli{
+  display: block;
+}
+.iniciob{
+  position: absolute;
+  top: 430px;
+  left: 480px;
+  background-color: #FFA07A;
+  height: 20px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.iniciob:hover{
+  display: block;
+  background: #FF7F52;
+}
+.es{
+  position: absolute;
+  top: 200px;
+  left: 410px;
+  height: 200px;
+  width: 110px;
+  font-size: 15px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.ejemplos{
+  position: absolute;
+  top: 140px;
+  left: 450px;
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.ejemd{
+  position: absolute;
+  top: 190px;
+  left: 430px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 100px;
+  width: 180px;
+  color: black;
+  display: none;
+  background: 
+}
+.ejemplos:hover{
+  display: block;
+  font-size: 28px;
+}
+.ejemplos:hover .ejemd{
+  display: block;
+   background-color:  #FFA07A;
+   opacity: 80%;
+   border-radius: 10px;
+}
+.iostream{
+  position: absolute;
+  top: 120px;
+  left: 700px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.iostreamd{
+  position: absolute;
+  top: 150px;
+  left: 715px;
+  height: 100px;
+  width: 130px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.iostreamde{
+  position: absolute;
+  top: 75px;
+  left: 260px;
+  height: 100px;
+  width: 130px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+  display: none;
+}
+.ejemplos:hover .iostreamde{
+  display: block;
+}
+.using{
+  position: absolute;
+  top: 120px;
+  left: 900px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.usingd{
+  position: absolute;
+  top: 150px;
+  left: 915px;
+  height: 100px;
+  width: 130px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.conio{
+  position: absolute;
+  top: 120px;
+  right:110px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.coniod{
+  position: absolute;
+  top: 150px;
+  height: 100px;
+  width: 130px;
+  right:100px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.coniode{
+  position: absolute;
+  top: 60px;
+  height: 160px;
+  width: 130px;
+  left:650px;
+  font-size: 15px;
+  display: none;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.ejemplos:hover .coniode{
+  display: block;
+ }
+.windows{
+  position: absolute;
+  top: 230px;
+  right:10px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.windowsd{
+  position: absolute;
+  top: 255px;
+  right:10px;
+  height: 150px;
+  width: 160px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.time{
+  position: absolute;
+  top: 340px;
+  right:40px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.timed{
+  position: absolute;
+  top: 365px;
+  right:10px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 150px;
+  width: 160px;
+}
+.stdio{
+  position: absolute;
+  top: 450px;
+  right:80px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.stdiod{
+  position: absolute;
+  top: 480px;
+  right:10px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 150px;
+  width: 200px;
+}
+.stdlib{
+  position: absolute;
+  top: 450px;
+  right:300px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.stdlibd{
+  position: absolute;
+  top: 475px;
+  right:280px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 150px;
+  width: 150px;
+}
+.string{
+  position: absolute;
+  top: 450px;
+  right:500px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.stringd{
+  position: absolute;
+  top: 475px;
+  right:480px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 150px;
+  width: 150px;
+}
+.math{
+  position: absolute;
+  top: 300px;
+  right:610px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color: #FFA07A;
+}
+.mathd{
+  position: absolute;
+  top: 325px;
+  right:590px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 150px;
+  width: 150px;
+}
+.flecha{
+ position: absolute;
+ top: 220px;
+ left: 330px;
+ font-size: 50px;
+ color: #FFA07A;
+
+}
+.librerias:hover{
+	font-size: 13px;
+}
+.partes{
+  position: absolute;
+  top: 5px;
+  left: 250px;
+  width: 240px;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+}
+.partes:hover{
+	font-size: 13px;
+}
+.titulop{
+  position: absolute;
+  top: 700px;
+  right: 100px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.fondot{
+  position: absolute;
+  top: 720px;
+  right: 100px;
+  width: 305px;
+  height: 50px;
+  border-radius: 30px/15px;
+  background: #FFA07A;
+  opacity: 40%;
+}
+.defipar{
+  position: absolute;
+  top: 774px;
+  right:130px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 150px;
+  width: 180px;
+}
+.foco{
+  position: absolute;
+  top: 410px;
+  right:180px;
+}
+.flechita2{
+  position: absolute;
+  top: 800px;
+  right: 450px;
+  font-size: 30px;
+  color: #FFA07A;
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacion{
+  0%{opacity: 30%}
+  100% {color: black;}
+  }
+.fleiz{
+  position: absolute;
+  top: 855px;
+  right: 300px;
+  font-size: 50px;
+  color: #FFA07A;
+}
+.defipar2{
+  position: absolute;
+  top: 930px;
+  right:290px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 150px;
+  width: 180px;
+}
+.funcionamiento{
+  position: absolute;
+  top: 520px;
+  right:-100px;
+  font-size: 15px;
+  font-family: 'Shadows Into Light Two', cursive;
+  height: 110px;
+  width: 180px;
+  background:#FFA07A;
+  border-radius: 10px;
+}
+.funcion{
+  position: absolute;
+  top: 300px;
+  right:300px;
+  display: none;
+}
+.funciont{
+  position: absolute;
+  top: 840px;
+  right: 600px;
+  font-size: 20px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color:#FFA07A;
+  border-radius: 10px;
+}
+.ejemplot{
+  position: absolute;
+  top: 1030px;
+  right: 520px;
+  font-size: 20px;
+  width: 200px;
+  font-family: 'Shadows Into Light Two', cursive;
+  color:#FFA07A;
+  border-radius: 10px;
+}
+.ejemplof{
+  position: absolute;
+  top: 500px;
+  right:350px;
+  display: none;
+}
+.foco:hover .funcion{
+display: block;
+}
+.foco:hover .ejemplof{
+display: block;
+}
+.avion{
+  position: absolute;
+  top: 800px;
+  left: 1px;
+}
+.inicio2{
+  position: absolute;
+  top: 1000px;
+  left: 400px;
+  background-color: #FFA07A;
+  height: 20px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.inicio2:hover{
+  display: block;
+  background: #FF7F52;
+}
+.variables{
+  position: absolute;
+  top: 5px;
+  right: 640px;
+  width: 100px;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+}
+.variables:hover{
+	font-size: 13px;
+}
+.titulov{
+  position: absolute;
+  top: 1270px;
+  left: 100px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.fondov{
+  position: absolute;
+  top: 1280px;
+  left: 90px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px/15px;
+  background: #FFA07A;
+  opacity: 40%;
+}
+.cubo{
+  position: absolute;
+  top: 650px;
+  left: 2px;
+}
+.defiv{
+  position: absolute;
+  top: 1320px;
+  left: 100px;
+  font-size: 15px;
+  width: 200px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.defiv2{
+  position: absolute;
+  top: 820px;
+  left: 250px;
+  font-size: 15px;
+  width: 200px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+}
+.cubo:hover .defiv2{
+display: block;
+background: #FFA07A;
+border-radius: 10px;
+}
+.flechv{
+ position: absolute;
+ top: 1320px;
+ left: 300px;
+ font-size: 55px;
+ color: #FFA07A;
+}
+.tiposv{
+  position: absolute;
+  top: 1420px;
+  left: 350px;
+  font-size: 25px;
+  color: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.flechita3{
+  position: absolute;
+  top: 1260px;
+  left: 40px;
+  font-size: 30px;
+  color: #FFA07A;
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacion{
+  0%{opacity: 30%}
+  100% {color: black;}
+}
+.char{
+  position: absolute;
+  top: 1320px;
+  left: 500px;
+  font-size: 25px;
+  color: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.chard{
+  position: absolute;
+  top: 1350px;
+  left: 460px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.int{
+  position: absolute;
+  top: 1450px;
+  left: 600px;
+  font-size: 25px;
+  color: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.intd{
+  position: absolute;
+  top: 1420px;
+  left: 550px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.stringv{
+  position: absolute;
+  top: 1320px;
+  left: 750px;
+  font-size: 25px;
+  color: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.stringdefi{
+  position: absolute;
+  top: 1350px;
+  left: 700px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.float{
+  position: absolute;
+  top: 1450px;
+  left: 860px;
+  font-size: 25px;
+  color: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.floatd{
+  position: absolute;
+  top: 1420px;
+  left: 820px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.bool{
+  position: absolute;
+  top: 1320px;
+  left: 990px;
+  font-size: 25px;
+  color: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.boold{
+  position: absolute;
+  top: 1360px;
+  left: 970px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.inicio3{
+  position: absolute;
+  top: 1500px;
+  right:150px;
+  background-color: #FFA07A;
+  height: 20px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.inicio3:hover{
+  display: block;
+  background: #FF7F52;
+}
+.if{
+  position: absolute;
+  top: 5px;
+  left: 850px;
+  width: 100px;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+}
+.if:hover{
+	font-size: 13px;
+}
+.titulof{
+  position: absolute;
+  top: 1600px;
+  right: 170px;
+  font-size: 25px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.fondof{
+  position: absolute;
+  top: 1610px;
+  right: 130px;
+  width: 100px;
+  height: 50px;
+  border-radius: 30px/15px;
+  background: #FFA07A;
+  opacity: 40%;
+}
+.defif{
+  position: absolute;
+  top: 1700px;
+  right: 50px;
+  font-size: 15px;
+  width: 200px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.flechita4{
+  position: absolute;
+  top: 1550px;
+  right: 100px;
+  font-size: 30px;
+  color: #FFA07A;
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacion{
+  0%{opacity: 30%}
+  100% {color: black;}
+}
+.flechael{
+  position: absolute;
+  top: 1710px;
+  right: 260px;
+  font-size: 30px;
+  color: #FFA07A;
+}
+.elseti{
+  position: absolute;
+  top: 1610px;
+  right: 400px;
+  font-size: 25px;
+  color: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.else{
+  position: absolute;
+  top: 1700px;
+  right: 320px;
+  font-size: 15px;
+  width: 200px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.imgc{
+  position: absolute;
+  top: 780px;
+  right: 1px;
+}
+.verdadero{
+  position: absolute;
+  top: 880px;
+  right: 100px;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+}
+.falso{
+  position: absolute;
+  top: 880px;
+  right: 350px;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+}
+.imgc:hover .verdadero{
+display: block;
+}
+.imgc:hover .falso{
+display: block;
+}
+.ciclos{
+  position: absolute;
+  top: 5px;
+  left: 1000px;
+  width: 100px;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+}
+.ciclos:hover{
+	font-size: 13px;
+}
+.ciclost{
+  position: absolute;
+  top: 1600px;
+  left: 100px;
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.ciclosf{
+  position: absolute;
+  top: 1610px;
+  left:70px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px/15px;
+  background: #FFA07A;
+  opacity: 40%;
+}
+.flechac{
+  position: absolute;
+  top: 790px;
+  left: 20px;
+  font-size: 40px;
+}
+.ciclosdef{
+  position: absolute;
+  top: 1680px;
+  left: 50px;
+  font-size: 15px;
+  width: 200px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+
+.flechadef{
+  position: absolute;
+  top: 1700px;
+  left: 250px;
+  font-size: 40px;
+  color:#FFA07A;
+}
+.while{
+  position: absolute;
+  top: 1600px;
+  left: 360px;
+  font-size: 25px;
+  width: 200px;
+  color:#FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.whiledef{
+  position: absolute;
+  top: 1650px;
+  left: 300px;
+  font-size: 15px;
+  width: 200px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.for{
+  position: absolute;
+  top: 1600px;
+  left: 600px;
+  font-size: 25px;
+  width: 200px;
+  color:#FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.forf{
+  position: absolute;
+  top: 1650px;
+  left: 520px;
+  font-size: 15px;
+  width: 250px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.flechita5{
+  position: absolute;
+  top: 1550px;
+  left: 10px;
+  font-size: 30px;
+  color: #FFA07A;
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+@keyframes animacion{
+  0%{opacity: 30%}
+  100% {color: black;}
+}
+.funwhile{
+  position: absolute;
+  top: 920px;
+  left: 300px;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+}
+.funfor{
+  position: absolute;
+  top: 1000px;
+  left: 550px;
+  width: 150px;
+  font-size: 16px;
+  border-radius: 10px;
+  background: #FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+
+}
+.flechac:hover .funwhile{
+  display: block;
+}
+.flechac:hover .funfor{
+  display: block;
+}
+.vectores{
+  position: absolute;
+  top: 5px;
+  left: 1200px;
+  width: 100px;
+  color: black;
+  display: block;
+  font-size: 12px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+}
+.vectores:hover{
+	font-size: 13px;
+}
+.vectorest{
+  position: absolute;
+  top: 1840px;
+  right: 90px;
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.vectoresf{
+  position: absolute;
+  top: 1850px;
+  right:70px;
+  width: 150px;
+  height: 50px;
+  border-radius: 30px/15px;
+  background: #FFA07A;
+  opacity: 40%;
+}
+.cajon{
+  position: absolute;
+  top: 915px;
+  right: 120px;
+  font-size: 40px;
+  }
+.flechita6{
+  position: absolute;
+  top: 1830px;
+  right: 280px;
+  font-size: 30px;
+  color: #FFA07A;
+  animation-name: animacion;
+  animation-duration: 3s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+.vectoresdef{
+  position: absolute;
+  top: 1900px;
+  right: 10px;
+  font-size: 15px;
+  width: 200px;
+  color: black;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+@keyframes animacion{
+  0%{opacity: 30%}
+  100% {color: black;}
+}
+.flechave{
+  position: absolute;
+  top: 1910px;
+  right: 260px;
+  font-size: 30px;
+  color: #FFA07A;
+}
+.contiene{
+  position: absolute;
+  top: 1830px;
+  right: 380px;
+  font-size: 25px;
+  width: 200px;
+  color:#FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.tipov{
+  position: absolute;
+  top: 1900px;
+  right: 600px;
+  font-size: 20px;
+  width: 200px;
+  color:#FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.nomv{
+  position: absolute;
+  top: 1900px;
+  right: 350px;
+  font-size: 20px;
+  width: 200px;
+  color:#FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.tamaño{
+ position: absolute;
+  top: 1900px;
+  right: 200px;
+  font-size: 20px;
+  width: 200px;
+  color:#FFA07A;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.intv{
+  position: absolute;
+  top: 1030px;
+  right: 610px;
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+}
+.A{
+  position: absolute;
+  top: 1030px;
+  right: 400px;
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+}
+.tam{
+  position: absolute;
+  top: 1030px;
+  right: 230px;
+  font-size: 25px;
+  font-family: 'Shadows Into Light Two', cursive;
+  display: none;
+}
+.cajon:hover .intv{
+  display: block;
+}
+.cajon:hover .A{
+  display: block;
+}
+.cajon:hover .tam{
+  display: block;
+}
+.inicio5{
+  position: absolute;
+  top: 1900px;
+  left:150px;
+  background-color: #FFA07A;
+  height: 20px;
+  width: 80px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-family: 'Lekton', sans-serif;
+  text-decoration: none;
+  color: black;
+}
+.inicio5:hover{
+  display: block;
+  background: #FF7F52;
+}
