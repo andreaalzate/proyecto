@@ -83,6 +83,30 @@ body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);
   font-size: 25px;
   color: white;
 }
+.parcial{
+  position: absolute;
+  top: 490px;
+  left: 700px;
+  background-color:white;
+  height: 60px;
+  width: 300px;
+  color: #E29B6A; 
+  border-radius: 50px;
+  font-size: 25px;
+  font-family: 'Satisfy', cursive;
+  border: solid 5px;
+  text-decoration: none;
+  padding-top: 10px;
+}
+.parcial:hover{
+  position: absolute;
+  background-color:#E29B6A ;
+  display: block;
+  height: 60px;
+  width: 300px;
+  font-size: 25px;
+  color: white;
+}
 .e1{
    position: absolute;
   top: 230px;
