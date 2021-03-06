@@ -1,0 +1,23 @@
+body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);}
+.font{
+  position: absolute;
+  top: 80px;
+  left: 525px;
+  height: 10px;
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+  opacity:70%;
+}
+.titulo{
+  position: absolute;
+  top: 40px;
+  left: 570px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.gif{
+  position: absolute;
+  top: 120px;
+  left: 250px;
+}
