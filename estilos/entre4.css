@@ -1,0 +1,29 @@
+body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);}
+.font{
+  position: absolute;
+  top: 80px;
+  left: 525px;
+  height: 10px;
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+  opacity:70%;
+}
+.titulo{
+  position: absolute;
+  top: 40px;
+  left: 580px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.algoritmo{
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+.video{
+  position: absolute;
+  top: 1900px;
+  width: 800px; 
+  left: 280px;
+}
