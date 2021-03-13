@@ -27,3 +27,11 @@ body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);}
   width: 800px; 
   left: 280px;
 }
+.comentario{
+  position: absolute;
+  top: 2350px;
+  left: 310px;
+  width: 700px;
+  font-size: 18px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
