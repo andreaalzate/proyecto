@@ -28,9 +28,15 @@ body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);}
 }
 .comentario{
   position: absolute;
-  top: 1000px;
+  top: 1570px;
   left: 310px;
   width: 700px;
   font-size: 18px; 
   font-family: 'Shadows Into Light Two', cursive;
+}
+.video{
+  position: absolute;
+  top: 1100px;
+  width: 800px; 
+  left: 280px;
 }
