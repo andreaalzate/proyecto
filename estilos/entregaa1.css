@@ -1,0 +1,42 @@
+body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);}
+.font{
+  position: absolute;
+  top: 80px;
+  left: 525px;
+  height: 10px;
+  width: 300px;
+  background: white;
+  border-radius: 20px;
+  opacity:70%;
+}
+.titulo{
+  position: absolute;
+  top: 40px;
+  left: 620px;
+  font-size: 30px;
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.a{
+  position: absolute;
+  top: 110px;
+  left: 390px;
+}
+.practica{
+  position: absolute;
+  top: 120px;
+  left: 150px;
+}
+.comentario{
+  position: absolute;
+  top: 860px;
+  left: 340px;
+  width: 700px;
+  font-size: 18px; 
+  font-family: 'Shadows Into Light Two', cursive;
+}
+.video{
+  position: absolute;
+  top: 400px;
+  width: 800px; 
+  left: 280px;
+}
