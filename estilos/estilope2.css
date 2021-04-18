@@ -83,7 +83,7 @@ body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);
   font-size: 25px;
   color: white;
 }
-.parcial{
+.entregaa1{
   position: absolute;
   top: 490px;
   left: 700px;
@@ -98,7 +98,7 @@ body{ background:-webkit-linear-gradient(20deg, #FFB8FF 10%,  #FFFAAF 90%);
   text-decoration: none;
   padding-top: 10px;
 }
-.parcial:hover{
+.entregaa1:hover{
   position: absolute;
   background-color:#E29B6A ;
   display: block;
